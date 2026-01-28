@@ -11,8 +11,8 @@ INSERT INTO "Facility" (address, city)
 VALUES
 ('Storgatan 1', 'Gothenburg'),
 ('Sveavägen 10', 'Stockholm'),
-('Kungsgatan 5', 'Malmö'),
-('Universitetsvägen 3', 'Uppsala');
+('Kungsgatan 5', 'Stockholm'),
+('Universitetsvägen 3', 'Gothenburg');
 
 INSERT INTO "Program" (program_name, description)
 VALUES

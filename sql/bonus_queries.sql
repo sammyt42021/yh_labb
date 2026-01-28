@@ -1,3 +1,11 @@
+--Standalone courses
+SELECT
+  c.course_name
+FROM "Course" c
+LEFT JOIN "Program_Course" pc
+  ON c.course_id = pc.course_id
+WHERE pc.program_id IS NULL;
+
 -- Courses taught by instructors and their company rates
 SELECT
   c.course_name,
